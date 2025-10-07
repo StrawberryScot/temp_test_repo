@@ -4,7 +4,7 @@ import pytest
 def test_wrap_and_then_unwrap():
     present = Present()
     present.wrap(21)
-    assert present.unwrap() == 33
+    assert present.unwrap() == 21
 
 def test_unwrap_without_wrapping():
     present = Present()
