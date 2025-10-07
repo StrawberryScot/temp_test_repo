@@ -9,7 +9,7 @@ def test_house_attributes():
 
 def test_get_details():
     my_house = House(137, "white")
-    assert my_house.get_details == "House number 137 has 2 floors and a white door"
+    assert my_house.get_details() == "House number 137 has 2 floors and a white door"
 
 def test_repaint_door():
     my_house = House(137, "white")
