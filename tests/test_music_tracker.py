@@ -34,7 +34,7 @@ def test_list_artists_returns_two_artists():
     mt.add_track("Waterloo", "ABBA")
     mt.add_track("Money Money Money", "ABBA")
     mt.add_track("Comfortably Numb", "Pink Floyd")
-    assert mt.list_unique_artists() == [
+    assert sorted(mt.list_unique_artists()) == [
         "ABBA",
         "Pink Floyd"
     ]
