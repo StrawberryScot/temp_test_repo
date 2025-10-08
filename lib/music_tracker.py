@@ -1,3 +1,5 @@
+from lib.track import Track
+
 class MusicTracker:
     def __init__(self):
         self.tracklist = []
